@@ -1,12 +1,7 @@
 # Penta_Value_Task
 
-Please Put the Below Lines in .env file in the root folder
+I Remove .env from .gitignore for you
 
-NODE_ENV = development
-DB_Server = sql4.freemysqlhosting.net
-DB_Name = sql4464928
-DB_Username = sql4464928
-DB_Password = Nbk8rSMDYA
-DB_Port_Number = 3306
+Please Run comaand "npm i" after install
 
 Thank You .....
