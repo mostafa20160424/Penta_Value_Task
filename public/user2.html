@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Penta Value Is Running for User Id 2</h1>
+    <script src="/socket.io.js"></script>
+<script>
+  var socket = io();
+  const userId = 2
+  socket.emit("new_user", userId)
+  socket.on('Create_Note', data => {
+    alert(data)
+  })
+  socket.on('Daily_Notes', data=>console.log(data))
+</script>
+</body>
+</html>
